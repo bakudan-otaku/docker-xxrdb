@@ -1,8 +1,4 @@
 # -*- mode: gitignore; -*-
-# ignore volume folder
-volumes/
-
-
 # emacs default gitignore: https://github.com/github/gitignore/blob/main/Global/Emacs.gitignore
 
 *~

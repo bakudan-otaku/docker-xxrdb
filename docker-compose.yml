@@ -6,7 +6,7 @@ services:
     ports:
       - 3389:3389
     volumes:
-      - ./volumes/home:/home
+      - home:/home
       - /etc/passwd:/etc/passwd:ro
       - /etc/shadow:/etc/shadow:ro
       - /etc/group:/etc/group:ro
@@ -14,3 +14,6 @@ services:
     environment:
       XXRDP_USER: "CHANGETOUSER"
     restart: 'unless-stopped'
+
+volumes:
+  home:
