@@ -1,5 +1,5 @@
 # docker-xxrdb
-A simple docker container with xfce5 and xrdp, based on ubuntu:noble
+A simple docker container with xfce5 and xrdp, based on ubuntu:resolute
 
 # usage
 Fix docker-compose.yml replace CHANGETOUSER to your username.
@@ -19,5 +19,4 @@ now connect with mstsc or remmina or something else.
 
 # Notes:
 * If you have ideas what to change and update have fun.
-* Why ubuntu:noble, because xrdp does run on it great.
 

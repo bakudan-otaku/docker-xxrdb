@@ -1,7 +1,7 @@
 # Inspired by:
 # https://github.com/danchitnis/container-xrdp
 
-FROM ubuntu:noble
+FROM ubuntu:resolute
 
 ENV DEBIAN_FRONTEND=noninteractive
 
